@@ -1,7 +1,8 @@
 require 'test_helper'
 
 class CsvRendererTest < ActiveSupport::TestCase
-  test "truth" do
-    assert_kind_of Module, CsvRenderer
+  test "csv mime type" do
+    assert_equal :csv, Mime::CSV.to_sym
+    assert_equal "text/csv", Mime::CSV.to_s
   end
 end
