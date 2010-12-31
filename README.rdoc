@@ -1,3 +1,5 @@
 = CsvRenderer
 
+A Rails3 renderer for the Comma Seperated Value (CSV) format.  Thank-you to @josevalim for his excellent Crafting Rails3 Applications book which inspired this gem.
+
 This project rocks and uses MIT-LICENSE.
